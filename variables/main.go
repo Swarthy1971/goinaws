@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+// constants
+const (
+	pi = 3.14
+	PI = 3.14
+)
+
 func main() {
 	myName := "Marek"
 	myInt := 10
@@ -17,5 +23,5 @@ func main() {
 	myOtherInt = 100
 
 	fmt.Printf("my other frinds name %s my bool %t my other int %d\n", myFriendsName, myBool, myOtherInt)
-
+	fmt.Println(pi, PI)
 }
